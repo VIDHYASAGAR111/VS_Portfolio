@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <!-- Background rounded square gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#0b0f19" />
+      <stop offset="50%" stopColor="#111827" />
+      <stop offset="100%" stopColor="#0a0e17" />
+    </linearGradient>
+
+    <!-- Subtle border glow -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#00c8ff" stopOpacity="0.8" />
+      <stop offset="50%" stopColor="#0066ff" stopOpacity="0.3" />
+      <stop offset="100%" stopColor="#00c8ff" stopOpacity="0.6" />
+    </linearGradient>
+
+    <!-- V Letter Gradient -->
+    <linearGradient id="vGradFav" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#00e5ff" />
+      <stop offset="35%" stopColor="#0099ff" />
+      <stop offset="100%" stopColor="#004ce0" />
+    </linearGradient>
+
+    <!-- Orbital Swoosh Gradient -->
+    <linearGradient id="swooshGradFav" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stopColor="#004be0" />
+      <stop offset="50%" stopColor="#0088ff" />
+      <stop offset="100%" stopColor="#00d5ff" />
+    </linearGradient>
+
+    <!-- S Letter Gradient (White / Platinum on dark bg) -->
+    <linearGradient id="sGradFav" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#ffffff" />
+      <stop offset="100%" stopColor="#cbd5e1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Modern App Icon Container (Squircle) -->
+  <rect x="16" y="16" width="480" height="480" rx="108" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="8" />
+
+  <!-- Inner Soft Tech Radial Glow -->
+  <circle cx="256" cy="256" r="180" fill="#0070f3" opacity="0.12" />
+
+  <!-- Logo Group centered inside 512x512 canvas -->
+  <g transform="translate(68, 95) scale(1.15)">
+    <!-- S Letter in Crisp High-Contrast Platinum/White -->
+    <path
+      d="M 215 136 C 215 106, 240 85, 288 85 C 318 85, 332 94, 342 108 L 310 128 C 304 120, 296 116, 286 116 C 270 116, 260 123, 260 134 C 260 144, 270 151, 288 156 L 302 160 C 330 168, 348 184, 348 212 C 348 244, 320 265, 278 265 C 242 265, 222 250, 212 235 L 244 214 C 251 224, 262 232, 276 232 C 294 232, 304 223, 304 211 C 304 199, 292 192, 274 187 L 260 183 C 232 174, 215 159, 215 136 Z"
+      fill="url(#sGradFav)"
+    />
+
+    <!-- V Letter with Vivid Cyan-to-Cobalt Gradient -->
+    <path
+      d="M 62 86 L 114 86 L 163 194 L 195 106 L 234 106 L 165 244 C 163 248, 157 254, 151 254 C 147 254, 142 250, 140 244 L 62 86 Z"
+      fill="url(#vGradFav)"
+    />
+
+    <!-- Dynamic Orbital Swoosh -->
+    <path
+      d="M 54 204 C 68 238, 116 264, 168 255 C 228 244, 288 198, 346 96 L 346 114 C 286 216, 216 268, 156 268 C 104 268, 64 242, 54 204 Z"
+      fill="url(#swooshGradFav)"
+    />
+
+    <!-- Digital Tech Pixels at Top-Right of Swoosh -->
+    <rect x="340" y="78" width="12" height="12" rx="2" fill="#0099ff" />
+    <rect x="324" y="86" width="12" height="12" rx="2" fill="#00b4ff" />
+    <rect x="340" y="94" width="12" height="12" rx="2" fill="#0070ee" />
+    <rect x="324" y="102" width="12" height="12" rx="2" fill="#0088ff" />
+    <rect x="340" y="62" width="9" height="9" rx="2" fill="#00e5ff" />
+  </g>
+</svg>

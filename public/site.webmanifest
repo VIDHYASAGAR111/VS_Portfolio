@@ -1,0 +1,17 @@
+{
+  "name": "VS Technology - Digital Agency & Software Solutions",
+  "short_name": "VS Technology",
+  "description": "Official website and portfolio for VS Technology Pvt. Ltd. led by Vidyasagar Chaurasiya (CSE).",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0f1d",
+  "theme_color": "#0091ff",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

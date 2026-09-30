@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@keyframes partnerMarquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-partner-marquee {
+  display: flex;
+  width: max-content;
+  animation: partnerMarquee 28s linear infinite;
+  will-change: transform;
+}
+
+.animate-partner-marquee:hover {
+  animation-play-state: paused;
+}

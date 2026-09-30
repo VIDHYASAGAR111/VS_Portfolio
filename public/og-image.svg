@@ -1,0 +1,110 @@
+<svg viewBox="0 0 1200 630" width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ogBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070c18" />
+      <stop offset="50%" stop-color="#0d1527" />
+      <stop offset="100%" stop-color="#0a1020" />
+    </linearGradient>
+    <linearGradient id="vGradOg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d4ff" />
+      <stop offset="35%" stop-color="#0095ff" />
+      <stop offset="100%" stop-color="#004ce8" />
+    </linearGradient>
+    <linearGradient id="swooshGradOg" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#004ce0" />
+      <stop offset="50%" stop-color="#0084ff" />
+      <stop offset="100%" stop-color="#00c8ff" />
+    </linearGradient>
+    <linearGradient id="accentGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0091ff" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0.1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Deep Navy Tech Background -->
+  <rect width="1200" height="630" fill="url(#ogBg)" />
+
+  <!-- Ambient Glow Circles -->
+  <circle cx="200" cy="180" r="280" fill="#0055ff" opacity="0.12" filter="blur(60px)" />
+  <circle cx="1050" cy="450" r="320" fill="#00b4ff" opacity="0.08" filter="blur(70px)" />
+
+  <!-- Grid Accents -->
+  <g opacity="0.08" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="360" x2="1200" y2="360" />
+    <line x1="0" y1="480" x2="1200" y2="480" />
+    <line x1="200" y1="0" x2="200" y2="630" />
+    <line x1="400" y1="0" x2="400" y2="630" />
+    <line x1="600" y1="0" x2="600" y2="630" />
+    <line x1="800" y1="0" x2="800" y2="630" />
+    <line x1="1000" y1="0" x2="1000" y2="630" />
+  </g>
+
+  <!-- Outer Border Frame -->
+  <rect x="24" y="24" width="1152" height="582" rx="28" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="2" />
+
+  <!-- Company Logo Icon on Left -->
+  <g transform="translate(100, 150) scale(1.5)">
+    <!-- S Letter in Pure White -->
+    <path
+      d="M 215 136 C 215 106, 240 85, 288 85 C 318 85, 332 94, 342 108 L 310 128 C 304 120, 296 116, 286 116 C 270 116, 260 123, 260 134 C 260 144, 270 151, 288 156 L 302 160 C 330 168, 348 184, 348 212 C 348 244, 320 265, 278 265 C 242 265, 222 250, 212 235 L 244 214 C 251 224, 262 232, 276 232 C 294 232, 304 223, 304 211 C 304 199, 292 192, 274 187 L 260 183 C 232 174, 215 159, 215 136 Z"
+      fill="#ffffff"
+    />
+
+    <!-- V Letter with Gradient -->
+    <path
+      d="M 62 86 L 114 86 L 163 194 L 195 106 L 234 106 L 165 244 C 163 248, 157 254, 151 254 C 147 254, 142 250, 140 244 L 62 86 Z"
+      fill="url(#vGradOg)"
+    />
+
+    <!-- Blue Orbital Swoosh -->
+    <path
+      d="M 54 204 C 68 238, 116 264, 168 255 C 228 244, 288 198, 346 96 L 346 114 C 286 216, 216 268, 156 268 C 104 268, 64 242, 54 204 Z"
+      fill="url(#swooshGradOg)"
+    />
+
+    <rect x="340" y="78" width="10" height="10" rx="2" fill="#0090ff" />
+    <rect x="326" y="86" width="10" height="10" rx="2" fill="#00b4ff" />
+    <rect x="340" y="92" width="10" height="10" rx="2" fill="#0070ee" />
+    <rect x="326" y="100" width="10" height="10" rx="2" fill="#0090ff" />
+    <rect x="340" y="64" width="7" height="7" rx="1.5" fill="#38d9ff" />
+  </g>
+
+  <!-- Typography Right Column -->
+  <g transform="translate(620, 180)">
+    <!-- Pill Tag -->
+    <rect x="0" y="0" width="220" height="38" rx="19" fill="#003db3" />
+    <text x="110" y="24" fill="#67e8f9" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="1.5">OFFICIAL PORTFOLIO</text>
+
+    <!-- Main Title -->
+    <text x="0" y="95" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="54" font-weight="800" letter-spacing="-0.5">VS Technology</text>
+    
+    <text x="0" y="145" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600">Full-Stack Digital Agency &amp; Software Solutions</text>
+
+    <!-- Subtitle / Founder -->
+    <text x="0" y="200" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="400">
+      Led by Vidyasagar Chaurasiya (CSE)
+    </text>
+
+    <!-- Features Line -->
+    <g transform="translate(0, 240)">
+      <rect x="0" y="0" width="140" height="36" rx="8" fill="#1e293b" />
+      <text x="70" y="23" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" text-anchor="middle">Web &amp; Apps</text>
+
+      <rect x="150" y="0" width="140" height="36" rx="8" fill="#1e293b" />
+      <text x="220" y="23" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" text-anchor="middle">WordPress</text>
+
+      <rect x="300" y="0" width="130" height="36" rx="8" fill="#1e293b" />
+      <text x="365" y="23" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" text-anchor="middle">Laravel</text>
+
+      <rect x="440" y="0" width="110" height="36" rx="8" fill="#1e293b" />
+      <text x="495" y="23" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" text-anchor="middle">SEO</text>
+    </g>
+  </g>
+
+  <!-- Bottom Bar with Contact & Location -->
+  <line x1="60" y1="530" x2="1140" y2="530" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
+  <text x="80" y="565" fill="#64748b" font-family="system-ui, -apple-system, sans-serif" font-size="14">📍 Sector 63, Noida, Uttar Pradesh, India</text>
+  <text x="1120" y="565" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" text-anchor="end">WhatsApp: +91 9598530662 &bull; vidyasagarchaurasiya38@gmail.com</text>
+</svg>
